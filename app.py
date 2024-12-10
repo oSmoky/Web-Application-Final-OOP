@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-logging.basicConfig(level=logging.DEBUG,  # Уровень логирования
+logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s [%(levelname)s] %(message)s',
                     handlers=[
                         logging.StreamHandler()
