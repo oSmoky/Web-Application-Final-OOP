@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.DEBUG,
                         logging.StreamHandler()
                     ])
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Asilhonbtw7@ooptest.cpk2g68mgiaf.eu-north-1.rds.amazonaws.com'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@yourawsendpoint'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 logging.info("Initializing SQLAlchemy...")
